@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/login2.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="roof">
+                <img src="../assets/image/roof.png">
+            </div>
+            <div class="headerworld">
+                <h1>台灣柑仔店</h1>
+                <p>- since 2022 -</p><hr>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="nl">
+            <a href="inde.html"><p>首頁</p></a>
+            <a href="#product"><p>商品</p></a>
+            <a href=""><p>關於我們</p></a>
+            <a href="Question.html"><p>常見QA</p></a>
+            <a href="login.html"><p>登入</p></a>
+            <a href="newmember.html"><p>會員中心</p></a>
+        </div>
+        <div class="search">
+            <input class="search-bar" type="text" name="search" id="search" placeholder="輸入名稱">
+            <button class="search-btn">
+                <img style="width: 20px;" src="../assets/image/300-removebg-preview.png">
+            </button>
+        </div>
+        <div class="nr">
+            <div>
+                <a href="pay1.html"><img style="width: 60px; margin-top: -10px;" src="../assets/image/Lovepik_com-400180742-shopping-cart-material.png"></a>
+            </div>
+        </div>
+    </nav>
+    <article>
+        <div class="out">
+            <div style="width: 40%;display: inline;margin-left: auto;">
+                <img src="../assets/image/pngtree-girl-welcome-to-cartoon-characters-png-image_4264285.png-removebg-preview.png">
+            </div>
+            <div style="margin: auto;margin-right: auto;margin-left: 0px;">
+                <button class="b1" onclick="showDialog();">點我登入~</button>
+            </div>
+        </div>
+        <div class="dialog" id="dialog">
+            <div class="close" onclick="hideDialog();" id="x">x</div>
+            <div class="l2">
+                <h1>註冊</h1>
+                <div class="linecircle2">
+                    <hr style="border: solid chocolate 3px; margin: 0px;">
+                    <p></p>
+                </div>
+                <div style="margin-top: 50px;" class="inform1">
+                    <p>帳號: <input style="padding: 10px; font-size:4mm; border-radius: 4mm;" placeholder="輸入生日： xxxx/xx/xx"></p>
+                    <p>密碼: <input style="padding: 10px; font-size:4mm; border-radius: 4mm;" placeholder="需包含英文及數字"></p>
+                    <p>郵件: <input style="padding: 10px; font-size:4mm; border-radius: 4mm;" placeholder="輸入email"></p>
+                </div>
+                <div class="inform2">
+                    <a href="login.html"><p style="width: 80px; margin-bottom: 30px;">註冊</p></a>
+                    <a href="login.html"><p style="width: 200px; margin-bottom: 20px;">有帳號，登入去</p></a>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer style="background-color:antiquewhite; border-radius: 0 0 7mm 7mm; padding: 5px; border: black solid 3px; margin: 0px;">
+        <div class="footerinform">
+            <p>phone: (03)-2659999</p>
+            <p>台灣桃園市中壢區中北路200號</p>
+            <p>Copyright 2023台灣柑仔店. All rights reserved</p>
+        </div>
+        <div class="threeQ">
+            <ul>
+                <li><a href="https://www.facebook.com/cyimsa"><img src="../assets/image/facebook-logo-icon-vector-29054612-removebg-preview.png"></a></li>
+                <li><a href=""><img src="../assets/image/LINE_ALBUM_2022_1.12.16_221225-removebg-preview.png"></a></li>
+                <li><a href="https://www.instagram.com/cycuim/"><img src="../assets/image/LINE_ALBUM_2022.12.16_221225-removebg-preview.png"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        var dialog,x;
+        window.onload=function(){
+          dialog=document.getElementById("dialog");
+          x=document.getElementById("x");
+        }
+        function showDialog(){
+          dialog.style.display="block";
+        }
+      function hideDialog(){
+        dialog.style.display="none";
+      }
+      </script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/question.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="roof">
+                <img src="../assets/image/roof.png">
+            </div>
+            <div class="headerworld">
+                <h1>台灣柑仔店</h1>
+                <p>- since 2022 -</p><hr>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="nl">
+            <a href="inde.html"><p>首頁</p></a>
+            <a href="inde.html"><p>商品</p></a>
+            <a href="aboutus.html"><p>關於我們</p></a>
+            <a href="Question.html"><p>常見QA</p></a>
+            <a href="login.html"><p>登入</p></a>
+            <a href="newmember.html"><p>會員中心</p></a>
+        </div>
+        <div class="search">
+            <input class="search-bar" type="text" name="search" id="search" placeholder="輸入名稱">
+            <button class="search-btn">
+                <img style="width: 20px;" src="../assets/image/300-removebg-preview.png">
+            </button>
+        </div>
+        <div class="nr">
+            <div>
+                <a href="pay1.html"><img style="width: 60px; margin-top: -10px;" src="../assets/image/Lovepik_com-400180742-shopping-cart-material.png"></a>
+            </div>
+        </div>
+    </nav>
+    <aside class="top">
+        <a style="text-decoration: none; color: #a2b59f;" href="inde.html"><p style="transform: translate(-50%,0);">TOP<br>▲</br></p></a>
+    </aside>
+
+    <article class="middle_image" style="background-image: url(../assets/image/S__77758535.jpg);">
+        <div class="title">
+            <p>常見QA</p>
+        </div>
+        <div class="fourQ">
+            <div id="q1">Q: 退換貨問題</div>
+            <div id="a1">A: 如運輸過程造成商品毀損、貨品品項錯誤，請於開箱時錄影或拍照存證；如遇商品瑕疵，也請拍照存證、保留相關商品請勿繼續食用。如遇以上狀況請立即與我們聯繫，以便安排後續協助。</div>
+            
+            <div id="q2">Q: 運送問題</div>
+            <div id="a2">A: 運送方式分為兩種，宅配到府及便利超商取貨，兩者運費皆為60元，主要是因為我們有長期與貨運公司配合，因此宅配能取得相對優惠的價格，配送過程需7-14個工作日，請耐心等待！</div>
+            
+            <div id="q3">Q: 會員問題</div>
+            <div id="a3">A: 凡購買本站商品顧客都需先完成註冊，台灣柑仔店也會不定時推出優惠活動，請敬請期待！</div>
+            
+            <div id="q4">Q: 聯絡我們</div>
+            <div id="a4">A: 本網站下方擁有台灣柑仔店的社群官方帳號連結，我們也會盡快為您答覆。</div>
+        </div>
+    </article>
+    <footer style="background-color:antiquewhite; border-radius: 0 0 7mm 7mm; padding: 5px; border: black solid 3px;">
+        <div class="footerinform">
+            <p>phone: (03)-2659999</p>
+            <p>台灣桃園市中壢區中北路200號</p>
+            <p>Copyright 2023台灣柑仔店. All rights reserved</p>
+        </div>
+        <div class="threeQ">
+            <ul>
+                <li><a href="https://www.facebook.com/cyimsa"><img src="../assets/image/facebook-logo-icon-vector-29054612-removebg-preview.png"></a></li>
+                <li><a href=""><img src="../assets/image/LINE_ALBUM_2022_1.12.16_221225-removebg-preview.png"></a></li>
+                <li><a href="https://www.instagram.com/cycuim/"><img src="../assets/image/LINE_ALBUM_2022.12.16_221225-removebg-preview.png"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function(){
+            $("#q1").click(function(){
+                $("#a1").slideToggle(600);
+            });
+            $("#q2").click(function(){
+                $("#a2").slideToggle(600);
+            });
+            $("#q3").click(function(){
+                $("#a3").slideToggle(600);
+            });
+            $("#q4").click(function(){
+                $("#a4").slideToggle(600);
+            });
+        })
+    </script>
+</body>
+</html>

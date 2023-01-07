@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/modintro.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="roof">
+                <img src="../assets/image/roof.png">
+            </div>
+            <div class="headerworld">
+                <h1>台灣柑仔店</h1>
+                <p>- since 2022 -</p><hr>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="nl">
+            <a href="inde.html"><p>首頁</p></a>
+            <a href="inde.html"><p>商品</p></a>
+            <a href="aboutus.html"><p>關於我們</p></a>
+            <a href="Question.html"><p>常見QA</p></a>
+            <a href="login.html"><p>登入</p></a>
+            <a href="newmember.html"><p>會員中心</p></a>
+        </div>
+        <div class="search">
+            <input class="search-bar" type="text" name="search" id="search" placeholder="輸入名稱">
+            <button class="search-btn">
+                <img style="width: 20px;" src="../assets/image/300-removebg-preview.png">
+            </button>
+        </div>
+        <div class="nr">
+            <div>
+                <a href="pay1.html"><img style="width: 60px; margin-top: -10px;" src="../assets/image/Lovepik_com-400180742-shopping-cart-material.png"></a>
+            </div>
+        </div>
+    </nav>
+    <aside class="top">
+        <a style="text-decoration: none; color: #a2b59f;" href="modintro.html"><p style="transform: translate(-50%,0);">TOP<br>▲</br></p></a>
+    </aside>
+    <article>
+        <div class="commodity">
+            <div class="topcom">
+                <img src="../assets/image/cola.jpeg">
+                <div class="rightcom">
+                    <p style="font-size: 8mm; color: black;">可樂橡皮糖</p><br>
+                    <p style="font-size: 6mm;">NT$15</p>&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <p class="line-through" style="font-size: 5mm;">NT$20</p><br>
+                    <div class="select-count">
+                        <p style="font-size: 6mm; float: left; margin-right: 40px;">數量</p>
+                        <button class="count" id="reduce" onclick="reducecount()">-</button>
+                        <input class="input" type="text" id="text" value="1"/>
+                        <button class="count" id="plus" onclick="pluscount()">+</button>
+                    </div><br>
+                    <input class="input1" type="submit" value="加入購物車" onclick="javascript:alert('已加入此商品囉～')">
+                </div>
+            </div>
+            <div class="downcom">
+                <input class="input2" checked id="commoditylike" name="evaluation" type="radio">
+                <label style="font-size: 6mm;" for="commoditylike">商品描述</label>
+    
+                <input class="input2" id="customersay" name="evaluation" type="radio" value="Two">
+                <label style="font-size: 6mm;" for="customersay">顧客評價</label>
+
+                <div class="part">
+                    <div class="part1">
+                        <div class="toppart1">
+                            <p style="color:rgb(236, 222, 157);">可樂橡皮糖 &nbsp 10g</p>
+                            <p>規格：一片4入，共8入橡皮糖</p>
+                            <p>賞味期限 : 2023 . 12 . 31</p>
+                        </div>
+                        <p style="font-size:7mm; text-align: center; color:white; margin-bottom: 5px;">更多好康在這邊！</p>
+                        <div class="downpart1">
+                            <a href="modintro2.html">
+                                <div class="candypic1">
+                                    <img src="../assets/image/juice.jpeg">
+                                    <div class="candyword">
+                                        <p>津津蘆筍汁</p>
+                                        <p>300ml</p><br>
+                                        <p style="margin-bottom: 0%;">NT$15</p>&nbsp
+                                        <p class="line-through" style="margin-bottom: 0%;">NT$20</p><br>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="modintro2.html">
+                                <div class="candypic2">
+                                    <img src="../assets/image/biscuit.jpeg">
+                                    <div class="candyword">
+                                        <p>菜脯餅</p>
+                                        <p>25g</p><br>
+                                        <p  style="margin-bottom: 0%;">NT$8</p>&nbsp
+                                        <p class="line-through" style="margin-bottom: 0%;">NT$13</p><br>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="modintro2.html">
+                                <div class="candypic3">
+                                    <img src="../assets/image/marble.jpeg">
+                                    <div class="candyword">
+                                        <p>彈珠汽水 </p>
+                                        <p>10g</p><br>
+                                        <p style="margin-bottom: 0%;">NT$35</p>&nbsp
+                                        <p class="line-through" style="margin-bottom: 0%;">NT$40</p><br>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="part2">
+                        <div class="think">
+                            <div class="t1">
+                                <img style="background-color: rgb(185, 202, 234); border-radius: 30mm; width: 130px;" src="../assets/image/images-removebg-preview拷貝.png">
+                                <div class="t1right">
+                                    <hr>
+                                    <img style="width: 45px;" src="../assets/image/star_PNG41495.png">
+                                    <img style="width: 45px;" src="../assets/image/star_PNG41495.png">
+                                    <img style="width: 45px;" src="../assets/image/star_PNG41495.png">
+                                    <img style="width: 45px;" src="../assets/image/star_PNG41495.png">
+                                    <img style="width: 45px;" src="../assets/image/star_PNG41495.png">
+                                    <p>豪豪吃！！好像回到小時候了～</p>
+                                </div>
+                            </div>
+                            <div class="t2">
+                                <img style="background-color: pink; border-radius: 30mm; width: 130px;" src="../assets/image/images-removebg-preview拷貝.png">
+                                <div class="t2right">
+                                    <hr>
+                                    <img style="width: 45px;" src="../assets/image/star_PNG41495.png">
+                                    <img style="width: 45px;" src="../assets/image/star_PNG41495.png">
+                                    <img style="width: 45px;" src="../assets/image/star_PNG41495.png">
+                                    <img style="width: 45px;" src="../assets/image/star_PNG41495.png">
+                                    <img src="">
+                                    <p>已經回購好多次了！推推～</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="t3">
+                            <img style="background-color: rgb(217, 255, 192); border-radius: 30mm; width: 130px;" src="../assets/image/images-removebg-preview拷貝.png">
+                            <div class="t2right">
+                                <hr>
+                                <img style="width: 45px;" src="../assets/image/star_PNG41495.png">
+                                <img style="width: 45px;" src="../assets/image/star_PNG41495.png">
+                                <img style="width: 45px;" src="../assets/image/star_PNG41495.png">
+                                <img style="width: 45px;" src="../assets/image/star_PNG41495.png">
+                                <img src="">
+                                <p>好有回憶的味道，好喜翻！</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p1down">
+                <p>現在任選三樣會送小禮物喔！點擊下面的限時特惠回到主頁挑選吧～選越多賺越多！還不買起來～！</p>
+                <a href="inde.html"><img src="../assets/image/cheap.png"></a>
+            </div>
+        </div>
+
+    </article>
+    <script>
+         function pluscount() {
+            //得到input输入框
+            var i = document.getElementById("text");
+            //将value的字符型转为数字类型
+            var value = parseInt(i.getAttribute("value"));
+            //规定value上限200，setAttribute后加属性名和属性值
+            if (value <=200){
+                i.setAttribute("value",++value);
+            }
+        }
+        //减少函数
+        function reducecount() {
+            var i = document.getElementById("text");
+            var value = parseInt(i.getAttribute("value"));
+            //在value的值大于0的情况下，value的值跟随增加按钮增加
+            if (value>0){
+                i.setAttribute("value", --value);
+            }
+        }
+    </script>
+    <footer style="background-color:antiquewhite; border-radius: 0 0 7mm 7mm; padding: 5px; border: black solid 3px;">
+        <div class="footerinform">
+            <p>phone: (03)-2659999</p>
+            <p>台灣桃園市中壢區中北路200號</p>
+            <p>Copyright 2023台灣柑仔店. All rights reserved</p>
+        </div>
+        <div class="threeQ">
+            <ul>
+                <li><a href="https://www.facebook.com/cyimsa"><img src="../assets/image/facebook-logo-icon-vector-29054612-removebg-preview.png"></a></li>
+                <li><a href="mailto:cyimsa@yahoo.com.tw"><img src="../assets/image/LINE_ALBUM_2022_1.12.16_221225-removebg-preview.png"></a></li>
+                <li><a href="https://www.instagram.com/cycuim/"><img src="../assets/image/LINE_ALBUM_2022.12.16_221225-removebg-preview.png"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

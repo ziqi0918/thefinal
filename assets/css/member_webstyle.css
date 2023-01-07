@@ -1,0 +1,372 @@
+body{
+    background-color:rgb(255, 241, 241);
+}
+
+.roof img{
+    width: 100%;
+}
+
+.headerworld h1{
+    font-size: 12mm;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.headerworld p{
+    font-size: 6mm;
+    text-align: right;
+    position: relative;
+    right: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.headerworld hr{
+    border: solid rgb(0, 0, 0);
+    width: 95%;
+    margin-bottom: 0px;
+}
+
+
+
+nav{
+    width: 99%;
+    height: 50px;
+    margin: auto;
+}
+
+nav p{
+    display: inline;
+    padding: 8px;
+    background-color: pink;
+    font-size: 7.5mm;
+    margin-right: 2%;
+    border: #3d1101 solid 2px;
+    border-radius: 0 0 2mm 2mm ;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+}
+
+.nl{
+    width: 57.5%;
+    height: 50px;
+    margin: 3px 0px 0 30px;
+    float: left;
+}
+
+.search{
+    float: left;
+    margin-top: 7px;
+    width: 30%;
+    margin-right:2.5% ;
+}
+
+.search-bar{
+    width: 100%;
+    height: 26px;
+    font-size: 20px;
+    border: 3px solid #3d1101;
+    background-color: #efe9e7;
+    position: relative;
+    float: left;
+}
+
+.search-btn {
+    width: 36px;
+    height: 32px;
+    background-color:pink;
+    outline: none;
+    border: 2px solid #3d1101;
+    cursor: pointer;
+    position: absolute;
+    float: right;
+    margin-left: -37px;
+    margin-top: 1px;
+}
+
+.nr{
+    width: 5%;
+    float: left;
+}
+.top{
+    text-decoration: none;
+    color: #a2b59f;
+}
+.top p{
+    background-color: white;
+    border: solid #a2b59f 2mm;
+    height:15mm;
+    width:15mm;
+    position: fixed;
+    bottom:2.0%;
+    left:95%;
+    text-align: center;
+    font-size: 25px;
+    padding: auto;
+    padding: 5px;
+    transform: translate(-50%,0);
+}
+.a1{
+    font-size: 15mm;
+    text-align: center;
+}
+.card1{
+    background-color: rgb(210, 150, 150);
+    margin: auto;
+    margin-bottom: 50px;
+    width: 65%;
+    border-radius: 20px;
+    padding:5% 3.5% 5% 3.5%;
+    border: rgb(65, 17, 17) 5mm solid;
+}
+.card1 img{
+    width: 45%;
+    margin-left:28%;
+    margin-bottom: 10px;
+}
+.card2{
+    margin: auto;
+    background-color: bisque;
+    border-radius:5mm;
+    width:60%;
+    padding:5% 7% 9% 10% ;
+    font-size: 24px;
+}
+.card2 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px; 
+    background-color: #a2b59f; 
+    width: 40%; 
+    border:white solid 3px;
+    border-radius: 3mm;
+    margin-left: 30%;
+}
+#mySidenav a {
+    position: fixed; 
+    left: -120px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 160px;
+    text-decoration: none; 
+    font-size: 23px; 
+    color: white; 
+    border-radius: 0 50px 50px 0;
+    display: flex;
+}
+#mySidenav img{
+    margin-left: 25px;
+    padding: 0%;
+    width: 40px;
+    height: 40px;
+}
+#mySidenav a:hover {
+    left: 0; 
+}
+  
+  
+#about {
+    top: 65%;
+    background-color: #04AA6D;
+}
+
+  
+#blog {
+    top: 77%;
+    background-color: #2196F3; 
+}
+  
+#projects {
+    top: 89%;
+    background-color: #f44336; 
+}
+  
+
+.comment_c1{
+    background-color: rgb(210, 150, 150);
+    margin: 3% 10%;
+    border-radius: 20px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border: black 5mm solid;
+}
+.comment_c2{
+    background-color: blanchedalmond;
+    padding: 20px 0 10px 40px;
+    border-radius: 5mm;
+    display: flex;
+    margin:6%;
+}
+.thing{
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+    margin-right:2%;
+    margin-left:2%;
+    margin-bottom: 20px;
+}
+.thing:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.comment_c3{
+    padding-left: 40px;
+}
+.s{
+    width: 45px;
+    padding-top: 5%;
+}
+.input{
+    opacity: 1;
+    padding: 10px; 
+    font-size: 4.5mm; 
+    border-radius: 4mm; 
+    width: 300px; 
+    height: 30px;
+}
+.comment_time {
+    padding-top:1% ;
+    padding-bottom: 1%;
+    font-size: 21px;
+    color: #026006;
+    margin: 0%;
+}
+
+
+.comsume_c1{
+    background-color: rgb(210, 150, 150);
+    margin: 3% 10%;
+    border-radius: 20px;
+    padding: 4%;
+    border: black 5mm solid;
+}
+.comsume_c2{
+    margin-top: 8%;
+    margin-bottom: 3%;
+    padding: 3%;
+    background-color: antiquewhite;
+    border-radius: 5mm;
+    display: flex;
+}
+.comsume_p1{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 10px 50px;
+}
+.comsume_t1{
+    font-size: 20px;
+}
+.comsume_c2 button{
+    position: relative;
+    top: -20%;
+    left: 50%;
+    background-color: #a2b59f;
+    color: white;
+    border:white solid 3px;
+    border-radius: 3mm;
+}
+.dialog{
+    position: fixed;
+    top:30%;
+    left: 30%;
+    width: 40%;
+    background-color: rgb(202, 214, 234);
+    padding: 4%;
+    border-radius: 10mm;
+    border: 3mm black solid;
+    transform: translate(-100px,0px);
+    display: none;
+    z-index: 1;
+}
+.show{
+    width:2cm ;
+    height: 1cm;
+}
+.close{
+    position: fixed;
+    top: 10%;
+    left: 90%;
+}
+
+
+fieldset, label { margin: 0; padding: 0; }
+/* body{ margin: 20px; } */
+
+.rating{
+    border: none;
+    position: absolute;
+    left:30%;
+    top:30%;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 40px;
+  display: inline-block;
+  content: "★";
+}
+
+.full{
+    content: "★";
+}
+
+.rating > label { 
+    color: rgb(248, 248, 248); 
+    float: right; 
+}
+
+
+
+.rating > input:checked ~ label, 
+.rating:not(:checked) > label:hover, 
+.rating:not(:checked) > label:hover ~ label { color: #f2e286ef;  } 
+.rating > input:checked + label:hover, 
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, 
+.rating > input:checked ~ label:hover ~ label { color: #f2e286ef;  } 
+
+
+.footerhr hr{
+    border: solid black;
+    width: 95%;
+    position: absolute;
+}
+
+.footerinform{
+    text-align: center;
+    font-size: 5mm;
+}
+
+.footerinform p{
+    margin: 11px;
+}
+
+.threeQ{
+    line-height: 2mm;
+}
+
+.threeQ ul{
+    text-align: center;
+    float: right;
+    margin: -120px 460px 0 0 ;
+}
+
+.threeQ li{
+    list-style: none;
+    display: inline-block;
+}
+
+.threeQ img{
+    width: 45px;
+    height: 45px;
+}
+
+.threeQ a{
+    text-decoration: none;
+}
+
